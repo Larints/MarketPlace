@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "LatoBold";
+    src: url("/fonts/Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+img {
+	max-width: 100%;
+	/* width: auto; */
+	/* display: block; */
+}
+
+.header{
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px ;
+    padding-bottom: 19px;
+
+}
+
+
+.header_user__icons{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.icon_menu{
+    margin-right: 25px;
+}
+.icon_user{
+    margin-right: 42px;
+}
+
+.content_logo{
+    fill: #F1E4E6;
+    background: #F1E4E6;
+    display: flex;
+    gap:41px;
+    flex-direction: row;
+    padding:0 calc(50% - 800px)
+}
+.logo_sign{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+
+}
+.logo_sign_text{
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    
+    
+}
+
+.logo_sign_the_brand{
+    color: #222;
+    font-family: LatoBold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.logo_sign_olf{
+    color: #222;
+    font-family: LatoBold;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.logo_sign_olf_fashion{
+    color: #F16D7F;
+    font-family: LatoBold;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.center{
+    /* margin-left: 230px;
+    margin-right: 230px; */
+    padding:18px 0 19px calc(50% - 1140px/2);
+
+}
+
+.content_catalog{
+    margin-top: 65px;
+    display: grid;
+    grid-template-areas: "a b c" "d d d";
+    row-gap: 30px;
+    justify-content: center;
+    column-gap: 30px;
+    margin-right: 25%;
+   
+}
+.pos_text_catalog{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    /* filter:brightness(80%); */
+}
+
+.catalog_accessories{
+    grid-column: 1 / -1;
+}
+
+.catalog_accessories .mobile{
+    display: none;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(33, 22, 22, 0.70);
+}  
+
+.sale_for_item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.for_item{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content_products{
+    margin-top: 96px;
+    margin-right: 25%;
+    justify-content: c;
+}
+
+.content_products_h3{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    color: #222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+.content_products_p{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 19px;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_products_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    background-color: #f8f8f8;
+}
+
+
+.item_main_description {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color:#F8F8F8;;
+}
+
+.products_item_name{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.products_item_description{
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 16px;
+
+}
+
+.products_item_price{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.btn_BAP{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+
+.btn_browse_all_products {
+    font-family: Lato;
+    color: #F26376;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #FFF;
+    text-align: center;
+    text-decoration: none;
+    /* width: 212px;
+    height: 48px; */
+    padding: 15px 39px;
+    border: 2px solid #FF6A6A;
+    display: flex;
+    align-items: center;
+}
