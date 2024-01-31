@@ -254,3 +254,52 @@ img {
     display: flex;
     align-items: center;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .header_user__icons {
+        padding-right: 20px;
+    }
+
+    .main_img {
+        width: 368px;
+        height: 368px;
+    }
+    .content_logo {
+        gap: 0px;
+    }
+
+    .logo_sign {
+        gap: 0px;
+        margin-right: 15%;
+    }
+
+    .logo_sign_the_brand {
+        font-size: 36px;
+    }
+
+    .content_catalog {
+        margin: auto;
+    }
+
+    .logo_sign_olf{
+        font-size: 22px;
+    }
+
+    .logo_sign_olf_fashion {
+        font-size: 22px;
+    }
+
+    .content_products {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .content_products_items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+        background-color: #f8f8f8;
+}
+}
