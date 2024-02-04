@@ -303,3 +303,71 @@ img {
         background-color: #f8f8f8;
 }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    .header {
+        margin: auto;
+        width: 320px;
+    }
+
+    .main_img {
+        display: none;
+    }
+    
+    .content_logo {
+        display: flex;
+        width: 320px;
+        height: 363px;
+    }
+
+    .logo_sign_text {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 29px;
+        width: 252px;
+        height: 48px;
+    }
+
+    .logo_sign_the_brand {
+        font-size: 25px;
+    }
+
+    .logo_sign_olf {
+        font-size: 20px;
+    }
+
+    .logo_sign_olf_fashion {
+        font-size: 20px;
+    }
+
+    .content_catalog {
+        margin-top: 25px;
+        display: grid;
+        grid-template-areas: "a";
+        row-gap: 30px;
+        justify-content: center;
+        column-gap: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sale_for_item {
+        font-size: 10px;
+    }
+
+    .content_products {
+        margin-top: 0px;
+        margin-right: 0%;
+        justify-content: c;
+    }
+
+    .content_products_items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+        background-color: #f8f8f8;
+    }
+}
