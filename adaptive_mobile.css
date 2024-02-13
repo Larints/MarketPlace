@@ -1,0 +1,118 @@
+@media (max-width: 733px) {
+    .my-center {
+        /*344 : 2 = 172*/
+        padding-left: calc(50vw - 172px);
+        padding-right: calc(50vw - 172px);
+    }
+    .my-center2 {
+        /*734 : 2 = 367*/
+        padding-left: calc(50vw - 367px);
+        padding-right: calc(50vw - 367px);
+    }
+    .my-hide-in-mobile {
+        display: none;
+    }
+    .my-main-menu {
+        overflow: scroll;
+    }
+    .my-top-menu {
+        padding: 18px 16px;
+    }
+    .my-slogan-text {
+        font-size: 38px;
+    }
+    .my-text-small {
+        font-size: 20px;
+    }
+    .my-brandposter {
+        height: 363px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .my-slogan {
+        margin: 0 auto;
+    }
+    .my-offer-block {
+        margin-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        min-width: 344px;
+        min-height: 100%;
+        gap: 32px;
+    }
+    .my-offer-pic-big,
+    .my-offer-text-container {
+        height: 248px;
+    }
+    .my-offer-pic-small,
+    .my-offer-text-container-small {
+        height: 111px;
+    }
+    .my-product-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+    .my-browse-button {
+        margin: 40px 0 96px;
+    }
+    .my-browse-button {
+        margin: 32px 0 60px;
+    }
+    .my-features-block {
+        padding-top: 48px;
+        padding-bottom: 81px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+    .my-feature-card {
+        max-width: 345px;
+    }
+    .my-subscribe-block {
+        padding-top: 64px;
+        padding-bottom: 110px;
+        background-color: rgba(255, 255, 255, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+    .my-subscribe-block::after {
+        background-size: auto 100%;
+        background-position-x: -400px;
+    }
+    .my-subscribe-photo img {
+        width: 91px;
+    }
+    .my-subscribe-form {
+        padding: 0 0;
+    }
+    .my-subsribe-input-n-button input {
+        display: inline;
+        border: none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #E1E1E1;
+        padding: 0 10px 0 22px;
+        height: 47px;
+        width: 215px;
+    }
+    .my-subsribe-input-n-button button {
+        width: 96px;
+        height: 47px;
+    }
+    .my-footer {
+        padding-top: 43px;
+        padding-bottom: 9px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+}
